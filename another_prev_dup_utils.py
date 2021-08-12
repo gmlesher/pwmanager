@@ -2,7 +2,8 @@ from database import find_app_name
 
 
 class AskAgainMixin:
-    """responsible for asking user if they would like to repeat action they just completed"""
+    """responsible for asking user if they would like to 
+    repeat action they just completed"""
     ask = None
     return_function = None
 
